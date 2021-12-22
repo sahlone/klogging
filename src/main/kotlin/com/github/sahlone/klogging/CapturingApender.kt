@@ -3,9 +3,9 @@ package com.github.sahlone.klogging
 import ch.qos.logback.core.OutputStreamAppender
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
+import org.apache.commons.io.output.TeeOutputStream
 import java.io.ByteArrayOutputStream
 import java.io.OutputStream
-import org.apache.commons.io.output.TeeOutputStream
 
 object Appender {
 
